@@ -1,0 +1,42 @@
+/* Write your CSS code here */
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card1 {
+  padding: 40px;
+}
+.heading1 {
+  font-size: 40px;
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+
+.paragraph1 {
+  color: #64748b;
+  font-size: 18px;
+}
+.shop-now-btn {
+  background-color: #0967d2;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 30px;
+
+  border: none;
+  border-radius: 5px;
+
+  outline: none;
+}
+
+.card2 {
+  padding: 20px;
+}
+
+.clothes-noticed {
+  width: 450px;
+}

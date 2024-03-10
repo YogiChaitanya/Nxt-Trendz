@@ -1,0 +1,38 @@
+/* Write your CSS code here */
+
+.nab-bar {
+  height: 18vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.website-logo {
+  width: 80px;
+  height: 50px;
+}
+.nav-menu {
+  list-style-type: none;
+  padding: 0px;
+  width: 250px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+.logout-btn {
+  background-color: #0967d2;
+  color: #ffffff;
+  padding: 8px;
+
+  border: none;
+  border-radius: 5px;
+}

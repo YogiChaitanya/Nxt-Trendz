@@ -1,0 +1,84 @@
+/* Write your CSS code here */
+.login-form-container {
+  padding: 30px;
+  background-size: cover;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.website-login {
+  width: 50%;
+}
+
+.form-control {
+  width: 30%;
+  padding: 40px;
+
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+
+  margin-left: 40px;
+}
+
+.website-logo {
+  width: 300px;
+
+  margin: 40px;
+}
+
+.label-names {
+  color: #1e293b;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+
+.user-name {
+  background-color: #d7dfe9;
+  color: #475569;
+  font-size: 14px;
+  height: 40px;
+  padding-left: 20px;
+
+  border: none;
+  border-radius: 5px;
+  outline: none;
+
+  margin-bottom: 20px;
+}
+
+.password-input {
+  background-color: #d7dfe9;
+  color: #475569;
+  font-size: 14px;
+  height: 40px;
+  padding-left: 20px;
+
+  border: none;
+  border-radius: 5px;
+  outline: none;
+
+  margin-bottom: 20px;
+}
+
+.login-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 14px;
+  height: 40px;
+  padding-left: 20px;
+
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+  outline: none;
+}
+.error-msg {
+  color: #ff0b37;
+}
